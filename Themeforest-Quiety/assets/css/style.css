@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    header .col-4 nav{
+        display: none;
+    }
+ 
+    header .sign a{
+        display: none;
+    }
+     
+    #caricature .wright-down img{
+     width: 140px;   
+    }
+
+    #software .update img{
+        display: none;
+    }
+
+    .update{
+        margin-bottom: 20px;
+    }   
+}
+
+
+
+@media all and (min-width: 576px) and (max-width: 768px ) {
+
+     
+
+        header .col-4 nav{
+            display: none;
+         }
+         header .sign i{
+            display: none;
+        }
+
+       
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+    header .sign i{
+        display: none;
+    }
+    
+   
+}
+
+
+
+header{
+
+    margin-bottom: 20px;
+} 
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav a{
+    color: black;
+    margin-right: 30px;
+}
+
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign a{
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.sign a button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #175cff;
+    color: aliceblue;    
+}
+
+
+#caricature{
+    background: linear-gradient(90deg,#071c4d,#002d97)!important;
+   
+}
+
+
+#caricature .wright-up{
+   margin-top: 20px; 
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+
+
+
+#caricature .wright-center a:nth-child(1){
+    background-color: #175cff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#caricature .wright-center a:nth-child(2){
+    color: #ffffffb6;
+}
+
+#caricature .wright-center i{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 20px;  
+    
+}
+
+#caricature .wright-center{
+    margin: 80px 0;
+}
+
+
+#caricature .wright-down h5{
+    font-weight: bold;
+    margin: 55px 0;
+    color: #fff;
+}
+
+
+.img img{
+    width: 100%;
+}
+
+
+#performance .need{ 
+    text-align: center;
+    margin: 60px 0;
+}
+
+#performance .need p{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#performance .secure{
+    padding: 50px;
+}
+
+#performance .secure{
+    text-align: center;
+}
+
+#performance .secure i{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+.update .hand{
+    background-color: #8da9f181;
+    padding-bottom: 4rem ;
+    border-radius: 20px;
+}
+
+.update .man{
+    background-color: rgba(255, 192, 203, 0.678);
+    padding-bottom: 4rem;
+    border-radius: 20px;
+}
+
+
+.update .image{
+    position: relative;
+}
+
+.update .image img{
+ position: absolute;
+ width: 220px;
+ right: 10px;
+ top: 15px;
+}
+
+#software .update h3{ 
+    margin: 10px 0px 0 20px;
+}
+#software .update p{
+    margin: 10px 0px 0 20px;
+}
+
+#software .update a{
+    margin: 10px 0px 0 20px;
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+
+#software .update a:hover{
+    background-color: #1556ee;
+    color: #fff;
+}
+
+
+#choose .advance{
+    margin-top: 200px;
+}
+
+#choose .li-all i{
+    color: #1556ee;
+
+}
+
+#choose .advance img{
+    width: 100%;
+}
+
+
+#choose .brand img{
+    width: 100%;
+}
+
+#choose .brand{
+    margin-top: 70px;
+
+}
+
+#choose .brand p{
+    margin: 45px 0;
+}
+
+#choose .brand i{
+    font-size: 40px;  
+    margin-bottom: 50px;  
+    color: #002d97;
+}
+
+#testimonial .say-all .say{
+    text-align: center;
+}
